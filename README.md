@@ -5,7 +5,7 @@
 2. Halaman detail dari produk
 
 ## Screenshot Aplikasi
-![Tampilansatu](https://user-images.githubusercontent.com/89154087/171189804-a3d4c64c-32b3-48b6-938b-202f04e09a4b.jpeg)
+![Tampilansatu](https://user-images.githubusercontent.com/89154087/171195237-464665ce-dd83-428f-8450-3c89a4d9b5c0.jpeg)
 ![Tampilandua](https://user-images.githubusercontent.com/89154087/171189856-890f5357-bafc-417f-a39f-c39ca6b70134.jpeg)
 
 ## Menggunakan api https://dummyjson.com/products
