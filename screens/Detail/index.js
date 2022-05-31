@@ -16,13 +16,13 @@ const ProductDetail = (props) => {
         <View
           style={{ justifyContent: "center", flex: 1, alignItems: "center" }}
         >
-          <Text style={{ fontSize: 20 }}>Loading . . </Text>
+          <Text style={{ fontSize: 20 }}>Loading . . . </Text>
         </View>
       ) : props.data.error ? (
         <View
           style={{ justifyContent: "center", flex: 1, alignItems: "center" }}
         >
-          <Text style={{ color: "red", fontSize: 30 }}>{props.data.error}</Text>
+          <Text style={{ color: "green", fontSize: 30 }}>{props.data.error}</Text>
         </View>
       ) : (
         <View
@@ -64,27 +64,27 @@ const ProductDetail = (props) => {
           <View style={{ marginTop: 8 }}>
             <Text
               // onPress={() => handleDetail(products.id)}
-              style={{ fontWeight: "bold", color: "blue" }}
+              style={{ fontWeight: "bold", color: "red" }}
             >
               Harga : {`${props.data.productDetail.price} $`}
             </Text>
             <Text
               // onPress={() => handleDetail(products.id)}
-              style={{ fontWeight: "bold", color: "blue" }}
+              style={{ fontWeight: "bold", color: "red" }}
             >
-              Rating Produk : {props.data.productDetail.rating}
+              Rating : {props.data.productDetail.rating}
             </Text>
             <Text
               // onPress={() => handleDetail(products.id)}
-              style={{ fontWeight: "bold", color: "blue" }}
+              style={{ fontWeight: "bold", color: "red" }}
             >
-              Stock Produk : {props.data.productDetail.stock}
+              Stock : {props.data.productDetail.stock}
             </Text>
             <Text
               // onPress={() => handleDetail(products.id)}
-              style={{ fontWeight: "bold", color: "blue" }}
+              style={{ fontWeight: "bold", color: "red" }}
             >
-              Kategori Produk : {props.data.productDetail.category}
+              Kategori : {props.data.productDetail.category}
             </Text>
           </View>
         </View>
