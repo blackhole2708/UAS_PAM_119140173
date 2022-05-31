@@ -31,13 +31,13 @@ const handleNextPage = () => {
         <View
           style={{ justifyContent: "center", flex: 1, alignItems: "center" }}
         >
-          <Text style={{ fontSize: 20 }}>Loading . . </Text>
+          <Text style={{ fontSize: 20 }}>Loading . . . </Text>
         </View>
       ) : props.data.error ? (
         <View
           style={{ justifyContent: "center", flex: 1, alignItems: "center" }}
         >
-          <Text style={{ color: "red", fontSize: 30 }}>{props.data.error}</Text>
+          <Text style={{ color: "green", fontSize: 30 }}>{props.data.error}</Text>
         </View>
       ) : (
         <Card 
