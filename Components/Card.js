@@ -51,7 +51,7 @@ const Card = (props) => {
             <View style={{ marginTop: 8 }}>
               <Text
                 onPress={() => handleDetail(products.id)}
-                style={{ fontWeight: "bold", color: "blue" }}
+                style={{ fontWeight: "bold", color: "black" }}
               >
                 Lihat detail
               </Text>
